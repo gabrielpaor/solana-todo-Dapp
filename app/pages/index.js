@@ -31,7 +31,7 @@ const Home = () => {
                 )}
                 {/* <WalletMultiButton /> */}
             </div>
-
+ 
             <div className={styles.mainContainer}>
                 <Loading loading={loading}>
                     <TodoSection title="Tasks" todos={incompleteTodos} action={markStaticTodo} />
